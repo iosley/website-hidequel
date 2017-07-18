@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "ZONA BLACK SLAB REGULAR";
+  src: url('../fonts/ZONA BLACK SLAB REGULAR.ttf');
+}
+
+@font-face {
+  font-family: "Markinson";
+  src: url('../fonts/Markinson.otf');
+}
+
+@font-face {
+  font-family: "Zona Pro";
+  src: url('../fonts/ZonaPro-Bold.otf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Zona Pro";
+  src: url('../fonts/ZonaPro.otf');
+  font-weight: normal;
+}

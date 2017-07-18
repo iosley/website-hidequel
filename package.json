@@ -1,0 +1,18 @@
+{
+  "name": "hidequel",
+  "version": "1.0.0",
+  "description": "site de ajuda para o hidequel",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start -s -f './**/*'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "help"
+  ],
+  "author": "Iosley Carlos Silva <iosley@outlook.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6"
+  }
+}
