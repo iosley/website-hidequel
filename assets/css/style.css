@@ -5,6 +5,9 @@
 * {
   color: white;
 }
+ p {
+  font-family: "Zona Pro";
+ }
 
 section {
   position: relative;
@@ -116,4 +119,22 @@ body {
   background-image: url("../images/background.png");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.second-section .row {
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.row {
+  position: relative;
+}
+
+.second-section p {
+  font-size: 1.2em;
+}
+
+.second-section .hidequel {
+  color: #8982F8;
+  margin-top: 35%;
 }
