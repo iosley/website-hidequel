@@ -5,9 +5,15 @@
 * {
   color: white;
 }
- p {
+
+p {
   font-family: "Zona Pro";
- }
+}
+
+p, span, a {
+  position: relative;
+  z-index: 3;
+}
 
 section {
   position: relative;
