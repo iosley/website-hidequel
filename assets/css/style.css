@@ -26,7 +26,7 @@ body {
   background-size: cover;
 }
 
-.bt-doar, .bt-doar:hover, .bt-doar:active, .bt-doar:visited {
+.bt-doar, .bt-doar:hover, .bt-doar:active, .bt-doar:visited , .bt-doar:focus {
   text-decoration: none;
   font-family: "ZONA BLACK SLAB REGULAR";
   font-size: 1.2em;
