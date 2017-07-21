@@ -10,7 +10,11 @@ p {
   font-family: "Zona Pro";
 }
 
-p, span, a {
+h1, h2, h3, h4, h5, h6 {
+  font-family: "ZONA BLACK SLAB REGULAR";
+}
+
+p, span, a, button {
   position: relative;
   z-index: 3;
 }
@@ -156,4 +160,57 @@ body {
 
 .third-section .hidequel {
   color: black;
+}
+
+.doar-modal .modal-content {
+  background-color: #5D110D;
+  border: none;
+  text-align: center;
+}
+
+.doar-modal h3 {
+  font-size: 1.5em;
+  display: block;
+  width: 100%;
+}
+
+.doar-modal li {
+  background-color: white;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.doar-modal .modal-content li p, .doar-modal .modal-content li p span, b {
+  color: black !important;
+}
+
+.doar-modal .modal-content li p {
+  display: inline-block;
+  vertical-align: middle;
+}
+.doar-modal .modal-content li p span {
+  display: inline-block;
+}
+
+.img-banco {
+  vertical-align: middle;
+  width: 25%;
+  border-radius: 5px;
+}
+
+.doar-modal ul {
+  padding: 0;
+}
+
+.container-cc {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  width: 100%;
+}
+
+.doar-modal .modal-header {
+  border: 0;
 }

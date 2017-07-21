@@ -14,6 +14,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   </head>
   <body>
+
     <section class="first-section">
       <div class="pattern">&nbsp;</div>
       <div class="container-fluid">
@@ -44,26 +45,27 @@
               <p>
                 Ajude um amigo a reconstruir sua vida!
               </p>
-              <a href="https://pag.ae/bjmdPMJ" class="bt-doar" target="__BLANK">
+              <button type="button" class="bt-doar" data-toggle="modal" data-target=".doar-modal">
                 Faça sua doação
                 <img src="assets/images/heart.png">
-              </a>
+              </button>
             </div>
             <img src="assets/images/hand2.png" width="784px" height="360px" style="max-width: 150%; height: auto">
             <p class="depoimento">
               “ Preciso da minha liberdade para continuar trabalhando dignamente
               e ajudando minha família no Brasil ”.
             </p>
-            <div class="text-center">
+            <!-- <div class="text-center">
               <a href="" class="mais">
                 <span>Saiba mais</span>
                 <img src="assets/images/seta.png" width="100px;">
               </a>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
     </section>
+
     <section class="second-section">
       <div class="container-fluid">
         <div class="row">
@@ -95,14 +97,15 @@
               <br>
               <span style="color: yellow">Precisamos da sua ajuda!</span>
             </p>
-            <a href="https://pag.ae/bjmdPMJ" class="bt-doar" target="__BLANK">
+            <button type="button" class="bt-doar" data-toggle="modal" data-target=".doar-modal">
               Faça sua doação
               <img src="assets/images/heart.png">
-            </a>
+            </button>
           </div>
         </div>
       </div>
     </section>
+
     <section class="third-section">
       <div class="container-fluid">
         <div class="row">
@@ -128,18 +131,86 @@
           </div>
           <div class="col text-center">
             <img src="assets/images/hidequel.png" class="img-fluid">
-            <a href="https://pag.ae/bjmdPMJ" class="bt-doar" target="__BLANK">
-              Faça sua doação
-              <img src="assets/images/heart.png">
-            </a>
+            <button type="button" class="bt-doar" data-toggle="modal" data-target=".doar-modal">
+                Faça sua doação
+                <img src="assets/images/heart.png">
+              </button>
           </div>
         </div>
       </div>
     </section>
+
+    <div class="modal fade doar-modal" tabindex="-1" role="dialog" aria-labelledby="Faça sua doação" aria-hidden="true">
+      <div class="modal-dialog">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <div class="modal-content">
+          <div class="container-fluid">
+            <h3>Obrigado pelo seu enorme coração</h3>
+            <p>Escolha uma forma de pagamento</p>
+            <ul>
+              <li>
+                <div class="container-cc">
+                  <img src="assets/images/icones/bb.jpg" alt="icone banco do brasil" class="img-banco">
+                  <p class="text-center">
+                    <span>Agência: <b>0554-1</b></span>
+                    <span>Var: <b>51</b></span>
+                    <span>Conta: <b>86.450-1</b></span>
+                    <br>
+                    <span>Eva Francisca da Costa Sousa</span>
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="container-cc">
+                  <img src="assets/images/icones/caixa.jpg" alt="icone caixa" class="img-banco">
+                  <p class="text-center">
+                    <span>Agência: <b>0644</b></span>
+                    <span>Op: <b>23</b></span>
+                    <span>Conta: <b>30381-0</b></span>
+                    <br>
+                    <span>Eva Francisca da Costa Sousa</span>
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="container-cc">
+                  <img src="assets/images/icones/santander.jpg" alt="icone santander" class="img-banco">
+                  <p class="text-center">
+                    <span>Agência: <b>3711</b></span>
+                    <span>Conta: <b>1049308-8</b></span>
+                    <br>
+                    <span>Eva Francisca da Costa Sousa</span>
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="container-cc">
+                  <img src="assets/images/icones/nordeste.jpg" alt="icone banco do nordeste" class="img-banco">
+                  <p class="text-center">
+                    <span>Agência: <b>00081</b></span>
+                    <span>Conta: <b>56806-0</b></span>
+                    <br>
+                    <span>Eva Francisca da Costa Sousa</span>
+                  </p>
+                </div>
+              </li>
+              <li class="text-center">
+                <a href="https://pag.ae/bjmdPMJ" target="__BLANK">
+                  <img src="assets/images/icones/pagseguro.png" class="img-fluid" alt="icone pagseguro">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <!-- <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous" defer></script> -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous" defer></script> -->
-    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous" defer></script> -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous" defer></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous" defer></script>
 
     <!-- Local version -->
     <!-- <script src="node_modules/jquery/dist/jquery.min.js" defer></script> -->
